@@ -39,6 +39,9 @@ func main(){
 	link = insert(link,5)
 	link = insert(link,6)
 	link = insert(link,7)
+	link = insert(link,8)
+	link = insert(link,9)
+	link = insert(link,10)
 
 	Printlist(link)
 }
