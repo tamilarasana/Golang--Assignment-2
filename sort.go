@@ -37,13 +37,13 @@ func main() {
         fmt.Println(v.Brand, v.Price)
     }
      
-    fmt.Println("\n\n######## Sort By Price [ascending] ###########\n")
+    fmt.Println("\n\n######## Sort By Price [Ascending] ###########\n")
     sort.Sort(ByPrice(mobile))
     for _, v := range mobile {
         fmt.Println(v.Brand, v.Price)
     }   
      
-    fmt.Println("\n\n######## Sort By Brand [descending] ###########\n")
+    fmt.Println("\n\n######## Sort By Brand [Descending] ###########\n")
     sort.Sort(ByBrand(mobile))
     for _, v := range mobile {
         fmt.Println(v.Brand, v.Price)
